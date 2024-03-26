@@ -1,0 +1,31 @@
+{
+	"name": "tu-template",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.1.1",
+		"@sveltejs/kit": "^1.27.7",
+		"autoprefixer": "^10.4.16",
+		"postcss": "^8.4.32",
+		"svelte": "^4.2.8",
+		"svelte-check": "^3.6.2",
+		"tailwindcss": "^3.3.6",
+		"typescript": "^5.3.3",
+		"vite": "^5.0.6"
+	},
+	"type": "module",
+	"dependencies": {
+		"@rollup/plugin-dsv": "^3.0.4",
+		"d3": "^7.8.5",
+		"gsap": "^3.12.3",
+		"layercake": "^8.0.2",
+		"npm-check-updates": "^16.14.11"
+	}
+}
